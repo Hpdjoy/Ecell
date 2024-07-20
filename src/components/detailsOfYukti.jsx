@@ -3,7 +3,7 @@ import './MainContent.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function YuktiContent() {
-  const handleSubmit = () => {
+  function handleSubmit(){
     // Add your submission logic here
     alert('Form submitted successfully!');
   };

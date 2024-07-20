@@ -1,13 +1,13 @@
 import React from 'react';
 import './MainContent.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import {link,useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 function TeamContent() {
   const navigate=  useNavigate();
   
     function YuktiDetails(){
-      navigate("/Details")
+      navigate("/Final")
     }
   
   
@@ -47,7 +47,7 @@ function TeamContent() {
       </select>
     </div></div>
       </div>    
-        <button className="proceed-button" onClick={() => {YuktiDetails}}>Next to</button>
+        <button className="proceed-button" onClick={YuktiDetails}>Next to</button>
       <div class="container">
         <div class="circle circle-1">1</div>
         <div class="line"></div>

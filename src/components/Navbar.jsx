@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import {link,useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 function Navbar() {
   
   const navigate =  useNavigate();
@@ -23,7 +23,7 @@ function Navbar() {
         <div><a href="#">Team</a></div>
       </div>
       <div>
-        <button className="register-button" onClick={() => {GotoFillDetails}}>Register</button>
+        <button className="register-button" onClick={GotoFillDetails}>Register</button>
       </div>
     </nav>
     </>
