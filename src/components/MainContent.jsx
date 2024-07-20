@@ -26,11 +26,11 @@ function MainContent() {
         </div>
         <button className="proceed-button" onClick={GotoFillDetails}>Proceed to</button>
         <div className="container">
-          <div className="circle circle-1">1</div>
-          <div className="line"></div>
-          <div className="circle circle-2">2</div>
-          <div className="line"></div>
-          <div className="circle circle-3">3</div>
+        <div class="circle" > 1</div>
+          <div class="line"></div>
+          <div class="circle" style={{ backgroundColor: "#ffffff" }}>2</div>
+          <div class="line"></div>
+          <div class="circle" style={{ backgroundColor: "#ffffff" }}>3</div>
         </div>
       </div>
     </>

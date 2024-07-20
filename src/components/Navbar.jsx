@@ -8,7 +8,9 @@ function Navbar() {
   function GotoFillDetails(){
     navigate("/Details")
   }
-
+ function GotoHome(){
+  navigate("/")
+ }
 
   return (
     <>
@@ -17,7 +19,7 @@ function Navbar() {
         className="edcell"
       ></div>
       <div className="nav-links">
-        <div><a href="#">Home</a></div>
+        <div onClick={GotoHome}><a href="#">Home</a></div>
         <div><a href="#">Gallery</a></div>
         <div><a href="#">Events</a></div>
         <div><a href="#">Team</a></div>
