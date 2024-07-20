@@ -1,0 +1,198 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  width: 816px;
+  height: 730px;
+  top: 203px;
+  left: 312px;
+  gap: 10px;
+  border-radius: 25px;
+  border: 2px solid rgba(247, 152, 42, 1);
+  opacity: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3px);
+
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content h3 {
+  /* padding-left: 40px; */
+  padding-top: 30px;
+  padding-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.main-content h1 {
+  /* font-family: 'Poppins', sans-serif; */
+  /* padding-left: 40px; */
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 75px;
+  text-align: left;
+  color: rgba(247, 152, 42, 1);
+  margin-top: 0px;
+}
+
+.note {
+  display: flex;
+  background: rgba(10, 40, 53, 0.6);
+  width: 675px;
+  height: Hug (78px)px;
+  top: 281px;
+  left: 71px;
+  padding: 15px 20px 15px 20px;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border: 1px dashed rgba(247, 152, 42, 1);
+
+}
+.note p {
+  width: 595px;
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+  gap: 5px; /* Adjust the gap between items if needed */
+  margin: 0; /* Remove default margin if needed */
+}
+
+.note i {
+  color: rgba(247, 152, 42, 1); /* Color for the icon */
+}
+
+.note-header {
+  color: rgba(247, 152, 42, 1); /* Color for the NOTE: text */
+  font-weight: bold; /* Make the NOTE: text bold */
+  margin: 0; /* Remove default margin if needed */
+}
+
+.proceed-button {
+  height: 43px;
+  width: 154px;
+  background: rgba(247, 152, 42, 1);
+  color: rgba(10, 40, 53, 1);
+  width: Fixed (154px)px;
+  height: Fixed (42px)px;
+  top: 521px;
+  left: 331px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.circle-1 {
+  background-color: #f5971e;
+  color: #000;
+}
+
+.circle-2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.circle-3 {
+  background-color: #fff;
+  color: #000;
+}
+
+.line {
+  width: 35px;
+  height: 2px;
+  margin: 5px;
+  background-color: #fff;
+}
+
+/*...........................................*/
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.form-field {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+input::placeholder {
+  color: rgb(255, 255, 255); /* Placeholder text color */
+  opacity: 1; /* Ensures the color is fully visible (default opacity might vary) */
+  font-size: 15px;
+}
+
+
+.ideation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ideation .form-field {
+  width: 350px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.solution .form-field{
+  width: 550px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}

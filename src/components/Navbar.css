@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 1233px;
+  height: 99px;
+  border-radius: 15px;
+  backdrop-filter: blur(3px);
+  margin-top: 20px;
+  
+}
+
+.edcell {
+  background-image: url('../assets/logo.png');
+  /* Correct property for background image */
+  background-size: contain;
+  /* Ensure the image fits within the div */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  top: 17px;
+  left: 65px;
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content:space-between;
+  color:#fff;
+  height: 36px;
+  width: 454px;
+  top: 31.5px;
+  left: 389.5px;
+  gap: 2px;
+  opacity: 0px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.register-button {
+  background-color: #f0ad4e;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
