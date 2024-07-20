@@ -1,9 +1,17 @@
 import React from 'react';
 import './Navbar.css';
-
+import {link,useNavigate} from 'react-router-dom';
 function Navbar() {
-  const logoUrl = '../assets/logo.png'; // Ensure this path is correct
+  
+  const navigate =  useNavigate();
+  
+  function GotoFillDetails(){
+    navigate("/Details")
+  }
+
+
   return (
+    <>
     <nav className="navbar">
       <div 
         className="edcell"
@@ -15,9 +23,10 @@ function Navbar() {
         <div><a href="#">Team</a></div>
       </div>
       <div>
-        <button className="register-button" >Register</button>
+        <button className="register-button" onClick={() => {GotoFillDetails}}>Register</button>
       </div>
     </nav>
+    </>
   );
 }
 

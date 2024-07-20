@@ -4,18 +4,17 @@ import TeamContent from './components/LeadersContent';
 import YuktiContent from './components/detailsOfYukti';
 import MainContent from './components/MainContent';
 import './App.css';
-import { useState } from 'react';
-
-
-
-
+import { Link, Route, useNavigate } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="App">
-           <Navbar />
-    </div>
+  
+      <Route>
+    <Route path='/' element={<MainContent/>}/>
+    <Route path='/fillDetails' element={<TeamContent/>}/>
+    <Route path='/Final' element={<YuktiContent/>}/>
+    </Route>
   );
 }
 

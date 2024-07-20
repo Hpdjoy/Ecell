@@ -9,6 +9,7 @@ function YuktiContent() {
   };
 
   return (
+    <>
     <div className="main-content">
       <div className='greeting'>
         <h3>Details of</h3>
@@ -47,6 +48,7 @@ function YuktiContent() {
         <div className="circle circle-3">3</div>
       </div>
     </div>
+    </>
   );
 }
 

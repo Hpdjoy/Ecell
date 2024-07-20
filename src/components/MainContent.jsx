@@ -2,9 +2,16 @@ import React from 'react';
 import './MainContent.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+import {link,useNavigate} from 'react-router-dom';
 
 function MainContent() {
+  const navigate=  useNavigate();
+  
+  function GotoFillDetails(){
+    navigate("/Details")
+  }
   return (
+    <>
     <div className="main-content">
       <div className='greeting'>
         <h3>Welcome to</h3>
@@ -17,7 +24,7 @@ function MainContent() {
           </p>
         </div>
       </div>
-      <button className="proceed-button" onClick={() => { }}>Proceed to</button>
+      <button className="proceed-button" onClick={() => {GotoFillDetails}}>Proceed to</button>
       <div class="container">
         <div class="circle circle-1">1</div>
         <div class="line"></div>
@@ -26,6 +33,7 @@ function MainContent() {
         <div class="circle circle-3">3</div>
       </div>
     </div>
+    </>
   );
 }
 
