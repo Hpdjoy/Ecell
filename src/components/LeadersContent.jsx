@@ -26,9 +26,10 @@ function TeamContent() {
               <input type="text" placeholder="Enter your SIC" className="form-field" />
               <select className="form-field">
                 <option value="">Select your year</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
-                <option value="2024">2024</option>
+                <option value="year1">1st</option>
+                <option value="year2">2nd</option>
+                <option value="year3">3rd</option>
+                <option value="year4">4th</option>
               </select>
               <select className="form-field">
                 <option value="">Select your branch</option>
