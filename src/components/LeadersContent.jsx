@@ -33,9 +33,15 @@ function TeamContent() {
               </select>
               <select className="form-field">
                 <option value="">Select your branch</option>
-                <option value="branch1">Branch 1</option>
-                <option value="branch2">Branch 2</option>
-                <option value="branch3">Branch 3</option>
+                <option value="cse">Computer Science and Engineering</option>
+                <option value="ece">Electronics and Communication </option>
+                <option value="ce">Computer Engineering</option>
+                <option value="cst">Computer Science and Technology</option>
+                <option value="eee">Electrical and Electronics </option>
+                <option value="eie">Electronics and Instrumentation </option>
+                <option value="mtech">M. Tech.</option>
+                <option value="mca">MCA (Computer Applications)</option>
+                <option value="msc">M.Sc. (Data Science)</option>
               </select> </div>
             <div>
               <select className="form-field">
